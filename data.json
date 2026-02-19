@@ -1,0 +1,145 @@
+
+{
+  "meta": {
+    "title": "Anand | Frontend Developer",
+    "description": "Frontend Developer & Designer focused on clean, modern UI",
+    "favicon": "🚀"
+  },
+  "navbar": {
+    "logo": "Anand",
+    "logoHighlight": "eveloper",
+    "links": ["Home", "About", "Skills", "Projects", "Contact"]
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Anand",
+    "roles": ["Frontend Developer", "UI/UX Designer", "Problem Solver"],
+    "description": "I'm a frontend developer & designer focused on clean, modern UI. I build fast, accessible, and beautiful web experiences that users love.",
+    "profileImage": "anand.jpeg",
+    "cta": {
+      "primary": { "text": "View My Work →", "href": "#projects" },
+      "secondary": { "text": "Download CV", "href": "#" }
+    },
+    "workedWith": [
+      { "name": "Google", "logo": "G" },
+      { "name": "Meta", "logo": "M" },
+      { "name": "AWS", "logo": "A" },
+      { "name": "Figma", "logo": "F" }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Get to know me",
+    "description": "I'm a passionate frontend developer with full  of experience creating beautiful, responsive web applications. I specialize in modern CSS techniques to deliver pixel-perfect UIs.",
+    "details": "When I'm not coding, you'll find me exploring new design trends, contributing to open source, or mentoring junior developers. I believe in writing clean, maintainable code that scales.",
+    "stats": [
+      { "number": "2", "label": "Projects Completed" },
+      { "number": "15+", "label": "Happy Clients" },
+      { "number": "2+", "label": "Years Experience" },
+      { "number": "5+", "label": "Open Source Contributions" }
+    ],
+    "image": "https://i.pinimg.com/736x/49/69/79/4969790da0d48b5caab2b558408c506d.jpg"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "What I work with",
+    "categories": [
+      {
+        "name": "Frontend",
+        "icon": "💻",
+        "items": [
+          { "name": "HTML5 / CSS3", "level": 20 },
+          { "name": "JavaScript (ES6+)", "level": 5 },
+          { "name": "React.js", "level": 85 },
+         { "name": "Tailwind CSS", "level": 90 }
+        ]
+      },
+      {
+        "name": "Design",
+        "icon": "🎨",
+        "items": [
+          { "name": "Figma", "level": 82 },
+          { "name": "UI/UX Design", "level": 78 },
+          { "name": "Responsive Design", "level": 92 },
+          { "name": "Design Systems", "level": 75 }
+        ]
+      },
+      {
+        "name": "Tools & Others",
+        "icon": "🛠️",
+        "items": [
+          { "name": "Git & GitHub", "level": 85 },
+          { "name": "Node.js", "level": 70 },
+          { "name": "REST APIs", "level": 80 },
+          { "name": "Performance Optimization", "level": 75 }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some things I've built",
+    "items": [
+      {
+        "id": 1,
+        "title": "E-Commerce Dashboard",
+        "description": "A full-featured admin dashboard with real-time analytics, inventory management, and beautiful data visualizations built with React and Chart.js.",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+        "tags": ["React", "Chart.js", "Node.js", "MongoDB"],
+        "github": "https://github.com/anandkumarsaw67-glitch",
+        "live": "https://example.com",
+        "featured": true
+      },
+      {
+        "id": 2,
+        "title": "AI Writing Assistant",
+        "description": "A sleek writing tool powered by OpenAI API that helps users generate, improve, and organize their content with a clean, distraction-free interface.",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&q=80",
+        "tags": ["JavaScript", "OpenAI API", "CSS3", "LocalStorage"],
+        "github": "https://github.com",
+        "live": "https://example.com",
+        "featured": true
+      },
+      {
+        "id": 3,
+        "title": "Travel Booking UI",
+        "description": "A stunning travel booking platform with immersive destination cards, smooth filtering, and an intuitive booking flow designed for maximum conversions.",
+        "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=80",
+        "tags": ["React", "Framer Motion", "Tailwind", "Supabase"],
+        "github": "https://github.com",
+        "live": "https://example.com",
+        "featured": false
+      },
+      {
+        "id": 4,
+        "title": "DevOps Monitoring Tool",
+        "description": "Real-time infrastructure monitoring dashboard with alerting, log analysis, and performance metrics to keep your systems healthy and observable.",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+        "tags": ["Vue.js", "WebSocket", "D3.js", "Express"],
+        "github": "https://github.com",
+        "live": "https://example.com",
+        "featured": false
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's work together",
+    "description": "I'm currently open to new opportunities. Whether you have a question, a project idea, or just want to say hello — my inbox is always open!",
+    "email": "anandkumarsaw67@gmail.com",
+    "phone": "+91 7667843770",
+    "location": "Dhanbad, Jharkhand, India",
+    "availability": "Available for freelance & internships"
+  },
+  "social": {
+    "github": "https://github.com/anandkumarsaw67-glitch",
+    "linkedin": "https://www.linkedin.com/in/anand-kumar-saw-7a06bb37a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "twitter": "https://twitter.com",
+    "instagram": "https://instagram.com/anand.it_"
+  },
+  "footer": {
+    "text": "Designed & Built by",
+    "name": "Anand",
+    "year": "2025"
+  }
+}

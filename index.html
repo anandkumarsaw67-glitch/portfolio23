@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Anand – Frontend Developer & Designer" />
+    <meta name="keywords" content="frontend developer, web developer, portfolio, React, JavaScript, UI/UX" />
+    <meta name="author" content="Anand" />
+    <title>Anand | Frontend developer</title>
+
+    <!-- Google Fonts: Clash Display + DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <!-- ============================
+         LOADING SCREEN
+    ============================= -->
+    <div id="loader" class="loader">
+      <div class="loader-inner">
+        <span class="loader-dot"></span>
+        <span class="loader-dot"></span>
+        <span class="loader-dot"></span>
+      </div>
+      <p class="loader-text">Initializing...</p>
+    </div>
+
+    <!-- ============================
+         CUSTOM CURSOR
+    ============================= -->
+    <div id="cursor" class="cursor"></div>
+    <div id="cursor-follower" class="cursor-follower"></div>
+
+    <!-- ============================
+         NAVBAR
+    ============================= -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">
+          <span class="logo-text" id="nav-logo-text">Anand</span><span class="logo-highlight" id="nav-logo-highlight">developer</span>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+          <!-- Links injected by JS -->
+        </ul>
+
+        <div class="nav-social" id="nav-social">
+          <!-- Social icons injected by JS -->
+        </div>
+
+        <!-- Hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-nav-links" id="mobile-nav-links"></ul>
+      </div>
+    </nav>
+
+    <!-- ============================
+         MAIN CONTENT
+    ============================= -->
+    <main>
+
+      <!-- HERO SECTION -->
+      <section id="home" class="section hero-section">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-bg-glow hero-glow-1"></div>
+        <div class="hero-bg-glow hero-glow-2"></div>
+
+        <div class="container hero-container">
+          <!-- Left: Text Content -->
+          <div class="hero-content">
+            <div class="hero-badge animate-fade-up" data-delay="0">
+              <span class="badge-dot"></span>
+              <span id="hero-availability">Available for work</span>
+            </div>
+
+            <h1 class="hero-title animate-fade-up" data-delay="1">
+              <span class="hero-greeting" id="hero-greeting">Hi, I'm</span>
+              <span class="hero-name" id="hero-name">Anand</span>
+            </h1>
+
+            <div class="hero-role animate-fade-up" data-delay="2">
+              <span class="role-prefix">I'm a </span>
+              <span class="typing-text" id="typing-text"></span>
+              <span class="typing-cursor">|</span>
+            </div>
+
+            <p class="hero-description animate-fade-up" data-delay="3" id="hero-description">
+              Loading...
+            </p>
+
+            <div class="hero-cta animate-fade-up" data-delay="4" id="hero-cta">
+              <!-- CTA buttons injected by JS -->
+            </div>
+
+            <div class="hero-worked-with animate-fade-up" data-delay="5">
+              <p class="worked-label">Excited to Worked with</p>
+              <div class="worked-logos" id="worked-logos">
+                <!-- Logo placeholders injected by JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Profile Image -->
+          <div class="hero-image-wrap animate-fade-left" data-delay="2">
+            <div class="hero-image-ring"></div>
+            <div class="hero-image-container">
+              <img id="hero-profile-img" src="" alt="Profile" class="hero-profile-img" />
+            </div>
+            <div class="hero-image-dots"></div>
+            <div class="floating-card card-1">
+              <span class="card-icon">⚡</span>
+              <span>Fast & Optimized</span>
+            </div>
+            <div class="floating-card card-2">
+              <span class="card-icon">🎨</span>
+              <span>Pixel Perfect</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+          <span>Scroll down</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag" id="about-subtitle">Get to know me</span>
+            <h2 class="section-title" id="about-title">About Me</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-image-col reveal-left">
+              <div class="about-image-wrap">
+                <img id="about-img" src="" alt="About me" class="about-img" />
+                <div class="about-image-border"></div>
+                <div class="about-exp-badge">
+                  <span class="exp-number">2+</span>
+                  <span class="exp-text">Years Experience</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-text-col reveal-right">
+              <p class="about-description" id="about-description">Loading...</p>
+              <p class="about-details" id="about-details">Loading...</p>
+
+              <div class="about-stats" id="about-stats">
+                <!-- Stats injected by JS -->
+              </div>
+
+              <a href="#contact" class="btn btn-primary about-cta">Let's talk →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag" id="skills-subtitle">What I work with</span>
+            <h2 class="section-title" id="skills-title">Skills</h2>
+          </div>
+
+          <div class="skills-grid" id="skills-grid">
+            <!-- Skill categories injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag" id="projects-subtitle">Some things I've built</span>
+            <h2 class="section-title" id="projects-title">Projects</h2>
+          </div>
+
+          <div class="projects-grid" id="projects-grid">
+            <!-- Project cards injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag" id="contact-subtitle">Let's work together</span>
+            <h2 class="section-title" id="contact-title">Contact</h2>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Left: Info -->
+            <div class="contact-info reveal-left">
+              <p class="contact-description" id="contact-description">Loading...</p>
+
+              <div class="contact-items" id="contact-items">
+                <!-- Contact details injected by JS -->
+              </div>
+
+              <div class="contact-social" id="contact-social">
+                <!-- Social links injected by JS -->
+              </div>
+            </div>
+
+            <!-- Right: Form -->
+            <div class="contact-form-wrap reveal-right">
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="form-name">Your Name</label>
+                  <input type="text" id="form-name" placeholder="John Doe" required />
+                </div>
+                <div class="form-group">
+                  <label for="form-email">Your Email</label>
+                  <input type="email" id="form-email" placeholder="john@example.com" required />
+                </div>
+                <div class="form-group">
+                  <label for="form-message">Message</label>
+                  <textarea id="form-message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit">
+                  <span>Send Message</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+                <p class="form-note">⚡ I typically respond within 24 hours</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ============================
+         FOOTER
+    ============================= -->
+    <footer class="footer" id="footer">
+      <div class="container footer-container">
+        <p class="footer-text" id="footer-text">
+          Designed & Built by <span class="footer-name">Anand</span>
+        </p>
+        <p class="footer-copy">&copy; <span id="footer-year">2026</span>. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- ============================
+         SCROLL TO TOP BUTTON
+    ============================= -->
+    <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
